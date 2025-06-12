@@ -1,0 +1,873 @@
+/* All phones */
+@media (max-width: 767px)  {
+    .home-section-container{
+        background-position: center;
+        height: 100vh;
+    }
+    .navbar-ankers>ul>li{
+        display: none;
+        padding: 0;
+    }
+    .home-header-h1::after{
+        font-size: 24px;
+    }
+    .home-navbar-container{
+        justify-content: space-between;
+        
+    }
+    .navbar-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .navbar-icons::after{
+        content: " ";
+        width: 20%;
+        height: 5px;
+        position: absolute;
+        right: 100%;
+        top: 37%;
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
+    }
+    .navbar-icons::before{
+        content: " ";
+        width: 20%;
+        position: absolute;
+        right: 100%;
+        bottom: 37%;
+        border-top: 3px solid white;
+    }
+
+/* End of home-header-content */
+/************************************/
+/* End of home section */
+/***********************/
+/* About section */
+.about-section-container{
+    margin: 0;
+}
+.about-section-header-container>h2{
+    font-size: 36px;
+}
+/* End header */
+.about-section-header-behind>h2{
+    font-size: 55px;
+}
+.about-section-text-container{
+    flex-direction: column;
+    padding: 0 15px;
+}
+.about-section-text{
+    padding: 0;
+}
+.about-section-text-left{
+    width: 100%;
+    text-align: center;
+}
+.about-section-text-right{
+    padding: 0;
+    width: 100%;
+}
+.about-section-text-right>p{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.about-section-text-right>p>span{
+    opacity: 0.8;
+}
+.about-section-text-right :nth-child(5){
+    margin-left: 5px;
+    padding: 15px 35px;
+}
+.about-section-experiance-container{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.years-experiance,
+.happy-clients,
+.projects-done,
+.get-awards{
+    width: 50%;
+}
+.years-experiance span,
+.happy-clients span,
+.projects-done span,
+.get-awards span{
+    font-size: 31px;
+}
+.years-experiance p,
+.happy-clients p,
+.projects-done p,
+.get-awards p{
+    font-size: 16px;
+}
+.years-experiance::after,
+.projects-done::after{
+    left: 75%;
+    border-right: 1.5px dashed rgba(88, 88, 88, 0.2);
+    border-left: none;
+}
+
+.happy-clients::after{
+    width: 200%;
+    left: -100%;
+    top: 100%;
+    border-top: 1.5px dashed rgba(88, 88, 88, 0.2);
+}
+/* End of about Section */
+/************************/
+/* What i do section */
+.what-i-do-section{
+    margin: 0;
+}
+.what-i-do-section-header-behind>h2{
+    font-size: 55px;
+}
+.what-i-do-section-header-container>h2{
+    font-size: 36px;
+}
+/* End headers */
+.what-i-do-tracks-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.graphic-design-track,
+.web-design-track,
+.ui-ux-design-track,
+.app-design-develop-track,
+.business-analysis-track,
+.seo-marketing-track{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.graphic-design-track-container>
+.graphic-design-track-icon,
+.web-design-track-container>
+.web-design-track-icon,
+.ui-ux-design-track-container>
+.ui-ux-design-track-icon,
+.app-design-develop-track-container>
+.app-design-develop-track-icon,
+.business-analysis-track-container>
+.business-analysis-track-icon,
+.seo-marketing-track-container>
+.seo-marketing-track-icon{
+    display: block;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.graphic-design-track-container>
+.graphic-design-track-icon>i,
+.web-design-track-container>
+.web-design-track-icon>i,
+.ui-ux-design-track-container>
+.ui-ux-design-track-icon>i,
+.app-design-develop-track-container>
+.app-design-develop-track-icon>i,
+.business-analysis-track-container>
+.business-analysis-track-icon>i,
+.seo-marketing-track-container>
+.seo-marketing-track-icon>i{
+    padding: 20px 20px;
+}
+.graphic-design-track-container>
+.graphic-design-track-text>p,
+.web-design-track-container>
+.web-design-track-text>p,
+.ui-ux-design-track-container>
+.ui-ux-design-track-text>p,
+.app-design-develop-track-container>
+.app-design-develop-track-text>p,
+.business-analysis-track-container>
+.business-analysis-track-text>p,
+.seo-marketing-track-container>
+.seo-marketing-track-text>p{
+    margin: 0;
+}
+.graphic-design-track-container>
+.graphic-design-track-text,
+.web-design-track-container>
+.web-design-track-text,
+.ui-ux-design-track-container>
+.ui-ux-design-track-text,
+.app-design-develop-track-container>
+.app-design-develop-track-text,
+.business-analysis-track-container>
+.business-analysis-track-text,
+.seo-marketing-track-container>
+.seo-marketing-track-text{
+    padding-right: 5px;
+}
+/* End of what i do section */
+/* ************************ */
+/* ________________________ */
+/* Resume section */
+.resume-section-header-behind>h2{
+    font-size: 55px;
+}
+.resume-section-header-container>h2{
+    font-size: 36px;
+}
+/* End of header */
+.resume-my-education-my-experience-container{
+    flex-direction: column;
+    padding: 0 6px;
+}
+.resume-my-education{
+    width: 100%;
+    padding: 10px;
+}
+.resume-my-experience{
+    width: 100%;
+    padding: 10px;
+}
+.my-education-computer-science,
+.my-education-bachelor-degree,
+.my-education-master-degree,
+.my-experience-jr-ui-x-designer,
+.my-experience-jr-product-designer,
+.my-experience-product-designer{
+    margin-bottom: 25px;
+}
+/* End of Education */
+.resume-my-skills{
+    padding: 0;
+}
+.resume-my-skills-conatiner{
+    flex-direction: column;
+}
+.resume-my-education>h2,
+.resume-my-experience>h2{
+    padding-left: 5px;
+    opacity: 0.8;
+}
+.resume-my-skills{
+    padding: 0 5px;
+}
+.my-sills-left,
+.my-sills-right{
+    width: 100%;
+    padding: 0;
+}
+.web-design-skill,
+.html-css-skill,
+.java-script-skill,
+.react-js-skill,
+.angular-js-skill,
+.bootstrap-skill{
+    margin: 0;
+}
+/* End of resume section */
+/* ********************* */
+/* My work section */
+.my-work-section-header-behind>h2{
+    font-size: 55px;
+}
+.my-work-section-header-container>h2{
+    font-size: 36px;
+}
+/* End header */
+.my-work-list-container{
+    margin-bottom: 25px;
+}
+.my-work-imges-container{
+    grid-template-columns: 100% ;
+    grid-template-areas: 
+    " img1"
+    " img3"
+    " img5"
+    " img2"
+    " img6"
+    " img7"
+    " img4"
+    ;
+}
+.my-work-imges{
+    padding: 10px;
+}
+.my-work-imges-img1,
+.my-work-imges-img2,
+.my-work-imges-img3,
+.my-work-imges-img4,
+.my-work-imges-img5,
+.my-work-imges-img6,
+.my-work-imges-img7{
+    padding: 10px 5px;
+}
+/* End of my work section */
+/* ______________________ */
+/* ********************** */
+/* Clients section */
+
+/*-------------------------------------------- */
+
+/* -------------------------------------------------- */
+.client-speak-section{
+    margin-top: 50px;
+}
+.clients-speak-two-persons{
+    margin-bottom: 15px
+}
+.client-speak-section-header-behind>h2{
+    font-size: 40px;
+}
+.client-speak-section-header-container>h2{
+    font-size: 36px;
+}
+/* End of header */
+.clients-speak-section,
+.clients-speak-two-persons,
+.clients-speak-two-persons-container,
+.clients-speak-first-person,
+.clients-speak-second-person,
+.clients-speak-first-person-container,
+.clients-speak-second-person-container{
+    padding: 0;
+    margin: 0;
+}
+.clients-speak-second-person{
+    display: none;
+}
+.clients-speak-two-persons-container{
+    
+    flex-wrap: wrap;
+}
+.clients-speak-first-person{
+    width: 100%;
+}
+.clients-speak-two-persons-container{
+    flex-wrap: wrap;
+}
+.clients-speak-first-person{
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 0;
+}
+.clients-speak-first-person-container{
+    padding: 32px;
+    padding-bottom: 0;
+}
+.speak-button-1,
+.speak-button-2{
+    margin-top: 20px;
+}
+.clients-speak-buttons-container>button:nth-child(3),
+.clients-speak-buttons-container>button:nth-child(4){
+    display: inline;
+}
+.first-person-paragraph>p{
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.clients-speak-buttons{
+    margin: 50px;
+}
+/* End of Clients section */
+/* ********************** */
+/* ______________________ */
+/* Get in touch section   */
+
+.get-in-touch-section-header-behind>h2{
+    font-size: 55px;
+}
+.get-in-touch-section{
+    margin: 80px 0;
+}
+.get-in-touch-adress-form {
+    padding: 0 15px;
+}
+.get-in-touch-adress-form-container{
+    flex-wrap: wrap-reverse;
+}
+.get-in-touch-adress{
+    width: 100%;
+    text-align: center;
+}
+.form-first-two-inputs{
+    flex-wrap: wrap;
+}
+.get-in-touch-adress{
+    padding: 0;
+}
+.get-in-touch-adress{
+    padding-top: 50px;
+}
+.get-in-touch-adress-container{
+    padding: 0;
+    width: 80%;
+    margin: auto;
+}
+.adress-tel-email>p{
+    padding: 0 53px ;
+}
+.media-icons>a:nth-child(1),
+.media-icons>a:nth-child(2),
+.media-icons>a:nth-child(3),
+.media-icons>a:nth-child(4){
+    margin-right: 10px;
+}
+/* form */
+.get-in-touch-form{
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+.form-first-input,
+.form-second-input{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.form-first-input{
+    margin-right: 0;
+}
+.form-second-input{
+    margin-bottom: 0;
+}
+/* Footer-section */
+.footer-section{
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.footer-rigth-text{
+    width: 100%;
+    text-align: center;
+}
+.footer-left-text{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.footer-rigth-text>p{
+    margin-bottom: 20px;
+}
+}
+@media  (min-width: 768px) and (max-width: 991px) {
+.home-section-container{
+    background-position: center;
+    height: 100vh;
+}
+.navbar-ankers>ul>li{
+    display: none;
+    padding: 0;
+}
+.home-header-h1::after{
+    font-size: 24px;
+}
+.home-navbar-container{
+    justify-content: space-between;
+    
+}
+.navbar-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.navbar-icons::after{
+    content: " ";
+    width: 20%;
+    height: 5px;
+    position: absolute;
+    right: 100%;
+    top: 37%;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.navbar-icons::before{
+    content: " ";
+    width: 20%;
+    position: absolute;
+    right: 100%;
+    bottom: 37%;
+    border-top: 3px solid white;
+}
+.home-header-content-container>p{
+    font-size: 28px;
+}
+.home-header-h1::after{
+    font-size: 50px;
+}
+.home-header-h1+p{
+    font-size: 21px;
+}
+.navbar-icons>a:nth-child(1){
+    padding-left: 10px;
+}
+/* End of home-header-content */
+/************************************/
+/* End of home section */
+/***********************/
+/* About section */
+.about-section{
+    margin-bottom: 100px;
+}
+.about-section-container{
+    margin: 0;
+}
+.about-section-header-container>h2{
+    font-size: 36px;
+}
+/* End header */
+.about-section-header-behind>h2{
+    font-size: 95px;
+}
+.about-section-text-container{
+    flex-direction: column;
+    padding: 0 30px;
+}
+.about-section-text{
+    padding: 0;
+}
+.about-section-text-left{
+    width: 100%;
+    text-align: center;
+}
+.about-section-text-right{
+    padding: 0;
+    width: 100%;
+}
+.about-section-text-right>p{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.about-section-text-right>p>span{
+    opacity: 0.8;
+}
+.about-section-text-right :nth-child(5){
+    margin-left: 5px;
+    padding: 15px 35px;
+}
+.years-experiance::after,
+.happy-clients::after,
+.projects-done::after{
+    content: " ";
+    position: absolute;
+    z-index: 8520;
+    top: 0;
+    left: 100%;
+    width: 50px;
+    height: 100%;
+    border-left: 1.5px dashed rgba(88, 88, 88, 0.2);
+}
+/* End of about Section */
+/************************/
+/* What i do section */
+.what-i-do-section{
+    margin-bottom: 100px;
+}
+.what-i-do-section-header-behind>h2{
+    font-size: 100px;
+}
+.what-i-do-tracks{
+    padding: 0 20px;
+    padding-right: 25px;
+}
+.what-i-do-tracks-container{
+    padding: 0;
+}
+.graphic-design-track,
+.web-design-track,
+.ui-ux-design-track,
+.app-design-develop-track,
+.business-analysis-track,
+.seo-marketing-track{
+    padding: 0px;
+    margin-bottom: 50px;
+}
+.graphic-design-track-container>
+.graphic-design-track-icon,
+.web-design-track-container>
+.web-design-track-icon,
+.ui-ux-design-track-container>
+.ui-ux-design-track-icon,
+.app-design-develop-track-container>
+.app-design-develop-track-icon,
+.business-analysis-track-container>
+.business-analysis-track-icon,
+.seo-marketing-track-container>
+.seo-marketing-track-icon{
+    display: block;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.graphic-design-track-container>
+.graphic-design-track-icon>i,
+.web-design-track-container>
+.web-design-track-icon>i,
+.ui-ux-design-track-container>
+.ui-ux-design-track-icon>i,
+.app-design-develop-track-container>
+.app-design-develop-track-icon>i,
+.business-analysis-track-container>
+.business-analysis-track-icon>i,
+.seo-marketing-track-container>
+.seo-marketing-track-icon>i{
+    padding: 20px 20px;
+}
+.graphic-design-track-container>
+.graphic-design-track-text>p,
+.web-design-track-container>
+.web-design-track-text>p,
+.ui-ux-design-track-container>
+.ui-ux-design-track-text>p,
+.app-design-develop-track-container>
+.app-design-develop-track-text>p,
+.business-analysis-track-container>
+.business-analysis-track-text>p,
+.seo-marketing-track-container>
+.seo-marketing-track-text>p{
+    margin: 0;
+}
+.graphic-design-track-container>
+.graphic-design-track-text,
+.web-design-track-container>
+.web-design-track-text,
+.ui-ux-design-track-container>
+.ui-ux-design-track-text,
+.app-design-develop-track-container>
+.app-design-develop-track-text,
+.business-analysis-track-container>
+.business-analysis-track-text,
+.seo-marketing-track-container>
+.seo-marketing-track-text{
+    padding-right: 5px;
+}
+/* End of what i do section */
+/* ************************ */
+/* ________________________ */
+/* Resume section */
+.resume-section{
+    margin-bottom: 100px;
+}
+.resume-section-header-behind>h2{
+    font-size: 100px;
+}
+.resume-my-education{
+    margin-right: 20px;
+}
+.resume-my-education,
+.resume-my-experience{
+    padding: 0 ;
+}
+.resume-my-education-my-experience{
+    padding: 0;
+}
+.resume-my-education-my-experience-container{
+    width: 90%;
+    padding: 0;
+    margin: auto;
+}
+.my-education-computer-science-container,
+.my-education-bachelor-degree-container,
+.my-education-master-degree-container,
+.my-experience-jr-ui-x-designer-container,
+.my-experience-jr-product-designer-container,
+.my-experience-product-designer-container{
+    padding: 0 10px;
+}
+/* End of resume section */
+/* ********************* */
+/* My work section */
+.my-work-section-header-behind>h2{
+    font-size: 100px;
+}
+.my-work-section{
+    margin: 100px 0;
+}
+.my-work-list{
+    margin: 50px 0;
+    margin-top: 70px;
+}
+.my-work-imges{
+    padding: 50px 25px;
+}
+.my-work-list-container>ul{
+    font-size: 16px;
+}
+.my-work-list-container>ul>li>a{
+    padding-left: 30px;
+}
+.my-work-imges-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "img1 img3"     
+    "img5 img3"
+    "img2 img3"    
+    "img2 img6"    
+    "img2 img6"    
+    "img2 img7"    
+    "img4 img7"    
+    "img4 img7"    
+    "img4 img7";
+}
+.my-work-imges-img1,
+.my-work-imges-img2,
+.my-work-imges-img3,
+.my-work-imges-img4,
+.my-work-imges-img5,
+.my-work-imges-img6,
+.my-work-imges-img7{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+/* End of my work section */
+/* ______________________ */
+/* ********************** */
+/* Clients section */
+.clients-speak-section{
+    margin-bottom: 100px;
+}
+.client-speak-section-header-behind>h2{
+    font-size: 100px;
+}
+.clients-speak-two-persons,
+.clients-speak-two-persons-container,
+.clients-speak-first-person,
+.clients-speak-second-person,
+.clients-speak-first-person-container,
+.clients-speak-second-person-container{
+    padding: 0;
+    margin: 0;
+}
+.clients-speak-second-person{
+    display: none;
+}
+.clients-speak-two-persons-container{
+    
+    flex-wrap: wrap;
+}
+.clients-speak-first-person{
+    width: 100%;
+}
+.clients-speak-two-persons-container{
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.clients-speak-first-person{
+    width: 100%;
+    padding: 0 60px;
+    padding-bottom: 0;
+}
+.clients-speak-first-person-container{
+    padding: 0;
+    padding-bottom: 0;
+}
+.speak-button-1,
+.speak-button-2{
+    margin-top: 20px;
+}
+.clients-speak-buttons-container>button:nth-child(3),
+.clients-speak-buttons-container>button:nth-child(4){
+    display: inline;
+}
+.first-person-paragraph>p{
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.clients-speak-buttons{
+    margin: 50px;
+}
+/* End of Clients section */
+/* ********************** */
+/* ______________________ */
+/* Get in touch section   */
+
+.get-in-touch-section-header-behind>h2 {
+    font-size: 100px;
+}
+.get-in-touch-form{
+    padding: 10px;
+}
+.get-in-touch-adress-form{
+    padding: 0 ;
+}
+.get-in-touch-adress{
+    padding: 0 36px;
+    padding-right: 27px;
+    padding-top: 30px;
+}
+.adress-tel-email>p{
+    line-height: 30px;
+}
+.get-in-touch-adress-container{
+    padding: 0;
+}
+.get-in-touch-form-container{
+    padding-right: 20px;
+}
+.form-first-two-inputs{
+    flex-wrap: wrap;
+}
+.form-first-input,
+.form-second-input{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.form-first-input{
+    margin-right: 0;
+}
+.form-second-input{
+    margin-bottom: 0;
+}
+.media-icons>a{
+    padding-right: 5px;
+}
+/* Footer section */
+.footer-section{
+    flex-wrap: wrap;
+}
+.footer-rigth-text{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.footer-left-text{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
